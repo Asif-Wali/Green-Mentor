@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.sideBar{
+    background: #181818;
+    width: 20%;
+    height: 84.625rem;
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.LogoContainer{
+/* display: flex;
+padding: 0.9375rem;
+flex-direction: column;
+gap: 0.625rem;
+padding: 0.8125rem 0.625rem 0.8125rem 2.5rem; */
+display: flex;
+padding: 0.9375rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+}
+.LogoContainerInside1{
+display: flex;
+width: 13.6875rem;
+padding: 0.8125rem 0.625rem 0.8125rem 1.25rem;
+align-items: center;
+gap: 0.3125rem;
+}
+
+.LogoContainer img{
+    width: 8rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    
+}
+.DataIn{
+ border-top: 1px solid #2C2C2C;
+border-bottom: 1px solid #2C2C2C;
+
+display: flex;
+/* width: 15.5625rem; */
+padding: 0.625rem 0.9375rem 0.9375rem 0.9375rem;
+flex-direction: column;
+align-items: center;
+gap: 0.625rem;
+}
+.DataInButton1{
+display: flex;
+width: 13.6875rem;
+padding: 0.8125rem 0.625rem 0.8125rem 1.25rem;
+align-items: center;
+gap: 0.3125rem;
+}
+.DataInButton1paragraph{
+
+padding-right: 6.25rem;
+align-items: center;
+color: #5C5C5C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.125rem; /* 128.571% */
+text-transform: uppercase;
+}
+.Energy{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0.5rem;
+    width: 13.6875rem;
+    height: 3.125rem;
+}
+.Energy1{
+
+    width: 1.0625rem;
+    height: 1.0625rem;
+
+}
+.Energy2{
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.125rem; /* 120% */
+margin-left:0.5rem;
+}
+.Energy3{
+    margin-top: 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+.dropdownContent {
+    position: absolute;
+    top: 39.1%;
+    left: 4%;
+    width: 170px;
+    background-color: #0ab55a;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    p{margin: 0;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  p:hover{
+    background-color: white;
+    color:black;
+  }
+}
+.WaterEffluents{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0.3rem;
+    width: 13.6875rem;
+    height: 3.125rem;
+
+    .waterDrop{
+        margin-right:0.5rem
+    }
+    .watertext{
+        margin-bottom: 0.5rem;
+    span{
+        color:green;
+        margin-left: 0.3rem;
+    }
+    }
+}
+.WaterDropDownContent{
+    
+    position: absolute;
+    top: 49%;
+    left: 4%;
+    width: 170px;
+    background-color: #0ab55a;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    p{margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+}
+.buttonsection{
+    div{
+        width: 15.5625rem;
+        height: 11.0625rem;
+        flex-shrink: 0;
+    }
+}
+.HelpButton{
+    width: 11.6875rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 0.6875rem;
+    background: #02AB6C;
+    border: none;
+    margin-top: 4rem;
+    margin-left: 1.75rem;
+} 
+
+.bottomside{
+    margin-top: auto;
+}
+.bottomBand{
+    
+    display: flex;
+    background: linear-gradient(0deg, #02AB6C 0%, #02AB6C 100%), #FAFBFC;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color:white;
+    padding: 0.5rem 0rem;
+    height: 3rem;
+    width:100%;
+    img{
+    height: 1.5625rem;
+    width: 7.25rem;
+    }
+}
+
