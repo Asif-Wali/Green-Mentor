@@ -1,1 +1,0 @@
-# green-mentor-assignment
